@@ -21,8 +21,7 @@ show_logo() {
 }
 
 show_subtext() {
-	echo "$1"
-	echo
+	echo -e "\n\e[34m$1\e[0m\n"
 }
 
 # Install prerequisites
@@ -50,4 +49,4 @@ sudo apt upgrade -y
 # Reboot
 show_subtext "You're done! Rebooting now..."
 sleep 2
-reboot
+# reboot
