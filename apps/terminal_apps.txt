@@ -1,3 +1,2 @@
-Application1 # comment 1
-Application2 # comment 2
-Application3 # comment 3
+nano # test install for nano
+tree # test install for tree 
