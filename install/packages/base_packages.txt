@@ -12,6 +12,7 @@ nnn			# command line file manager
 tree			# tree list of file and directory contents
 docker			# containers
 nmap			# port scanner
+alacritty		# terminal emulator
 
 # Development
 build-essential		# programming essential
@@ -38,3 +39,7 @@ zathura			# PDF viewer
 ncal			# command line calendar
 feh			# image viewer & background setter
 slack-desktop		# business chat program
+
+# games
+nethack-console		# terminal based game
+gnuchess		# chess

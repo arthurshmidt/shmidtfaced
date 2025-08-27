@@ -26,11 +26,12 @@ show_subtext() {
 
 # Install prerequisites
 show_subtext "Installing prerequisites [1/6]"
-# source $SHMIDTFACED_INSTALL/prerequisites/directories.sh
+source $SHMIDTFACED_INSTALL/prerequisites/sudo_notice.sh
+source $SHMIDTFACED_INSTALL/prerequisites/system_update.sh
 
 # Apps
-show_subtext "Installing default applications [2/6]"
-source $SHMIDTFACED/apps/terminal_apps.sh
+show_subtext "Installing base packages [2/6]"
+source $SHMIDTFACED/packages/base_packages.sh
 
 # Configuration
 show_subtext "Installing configurations [3/6]"
