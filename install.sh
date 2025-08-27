@@ -28,19 +28,21 @@ show_subtext() {
 show_subtext "Installing prerequisites [1/6]"
 # source $SHMIDTFACED_INSTALL/prerequisites/directories.sh
 
+# Apps
+show_subtext "Installing default applications [2/6]"
+source $SHMIDTFACED/apps/terminal_apps.sh
+
 # Configuration
-show_subtext "Installing configurations [2/6]"
+show_subtext "Installing configurations [3/6]"
 
 # Development
-show_subtext "Installing development & terminal tools [3/6]"
+show_subtext "Installing development & terminal tools [4/6]"
+source $SHMIDTFACED/development/lazyvim.sh
 
 # Desktop
-show_subtext "Installing desktop & window manager tools [4/6]"
+show_subtext "Installing desktop & window manager tools [5/6]"
 # source $SHMIDTFACED_INSTALL/desktop/dwm.sh
 
-# Apps
-show_subtext "Installing default applications [5/6]"
-# source $SHMIDTFACED/apps/terminal_apps.sh
 # Update
 show_subtext "Updating system packages [6/6]"
 sudo apt update -y
