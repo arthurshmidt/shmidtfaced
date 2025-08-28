@@ -13,4 +13,4 @@ while read -r line; do
 		sudo apt -yq install "$application"
 		# echo -e "\e[32m$application install done\e[0m"
 	fi
-done <base_packages.txt
+done < $(pwd)/install/packages/base_packages.txt

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo -e "\n\e[32mSudo Notice.\e[0m\n"
+
 echo "Have you installed sudo and added a user to the sudo group?"
 echo -e "If not, ctrl-c to exit and type the following commands:\n"
 echo "    $ su -"

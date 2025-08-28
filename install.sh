@@ -31,14 +31,14 @@ source $SHMIDTFACED_INSTALL/prerequisites/system_update.sh
 
 # Apps
 show_subtext "Installing base packages [2/6]"
-source $SHMIDTFACED/packages/base_packages.sh
+source $SHMIDTFACED_INSTALL/packages/base_packages.sh
 
 # Configuration
 show_subtext "Installing configurations [3/6]"
 
 # Development
 show_subtext "Installing development & terminal tools [4/6]"
-source $SHMIDTFACED/development/lazyvim.sh
+source $SHMIDTFACED_INSTALL/development/lazyvim.sh
 
 # Desktop
 show_subtext "Installing desktop & window manager tools [5/6]"
