@@ -24,6 +24,8 @@ show_subtext() {
 	echo -e "\n\e[34m$1\e[0m\n"
 }
 
+show_logo
+
 # Install prerequisites
 show_subtext "Installing prerequisites [1/6]"
 source $SHMIDTFACED_INSTALL/prerequisites/sudo_notice.sh
