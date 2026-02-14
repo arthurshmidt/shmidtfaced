@@ -10,7 +10,7 @@ curl			# command line data transfer
 wget			# command line download
 nnn			# command line file manager
 tree			# tree list of file and directory contents
-docker			# containers
+# docker			# containers
 nmap			# port scanner
 alacritty		# terminal emulator
 
@@ -28,17 +28,17 @@ libxcb-xkb-dev		# ly library
 rofi			# application selector
 
 # Other nice to haves
-neofetch		# Command-line information tool
+# neofetch		# Command-line information tool
 btop			# a cooler looking version of top
 fzf			# fuzzy finder
 lynx			# temrinal web browser
 weechat			# IRC chat client
-tldr			# alternative to Man pages
+# tldr			# alternative to Man pages
 flameshot		# screen capture tool
 zathura			# PDF viewer
 ncal			# command line calendar
 feh			# image viewer & background setter
-slack-desktop		# business chat program
+# slack-desktop		# business chat program
 
 # games
 nethack-console		# terminal based game
