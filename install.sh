@@ -31,9 +31,9 @@ show_subtext "Installing prerequisites [1/6]"
 source $SHMIDTFACED_INSTALL/prerequisites/sudo_notice.sh
 source $SHMIDTFACED_INSTALL/prerequisites/system_update.sh
 
-# Apps
+# Core Packages 
 show_subtext "Installing base packages [2/6]"
-source $SHMIDTFACED_INSTALL/packages/base_packages.sh
+source $SHMIDTFACED_INSTALL/core_packages/core_packages.sh
 
 # Configuration
 show_subtext "Installing configurations [3/6]"
