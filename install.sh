@@ -30,6 +30,8 @@ show_logo
 show_subtext "Installing prerequisites [1/7]"
 source $SHMIDTFACED_INSTALL/prerequisites/sudo_notice.sh
 source $SHMIDTFACED_INSTALL/prerequisites/system_update.sh
+source $SHMIDTFACED_INSTALL/prerequisites/home_dir.sh
+
 
 # Core Packages 
 show_subtext "Installing base packages [2/7]"
@@ -51,6 +53,7 @@ source $SHMIDTFACED_INSTALL/window_manager/ly_libraries.sh
 source $SHMIDTFACED_INSTALL/window_manager/rofi.sh
 source $SHMIDTFACED_INSTALL/window_manager/dwm.sh
 # source $SHMIDTFACED_INSTALL/window_manager/ly.sh
+source $SHMIDTFACED_INSTALL/window_manager/fonts.sh
 
 # Applications
 show_subtext "Installing general applications [6/7]"
