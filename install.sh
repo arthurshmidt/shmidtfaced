@@ -52,6 +52,7 @@ source $SHMIDTFACED_INSTALL/window_manager/dwm_libraries.sh
 source $SHMIDTFACED_INSTALL/window_manager/ly_libraries.sh
 source $SHMIDTFACED_INSTALL/window_manager/rofi.sh
 source $SHMIDTFACED_INSTALL/window_manager/dwm.sh
+source $SHMIDTFACED_INSTALL/window_manager/xinit.sh
 # source $SHMIDTFACED_INSTALL/window_manager/ly.sh
 source $SHMIDTFACED_INSTALL/window_manager/fonts.sh
 
