@@ -14,3 +14,10 @@ Add user to the sudo group
 
 ## Wifi Setup
 Make sure to comment out with "#" of any devices.  Check the /etc/interfaces.
+
+## Git Setup
+Setup password and setup globally.
+
+    $ git config --global user.name "<user name>"
+    $ git config --global user.emaili "<user email>"
+    $ git config --global credential.helper store
