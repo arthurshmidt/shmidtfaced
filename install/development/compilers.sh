@@ -5,4 +5,5 @@ sudo apt install build-essential
 sudo apt install python3-pip
 sudo apt install python3-django
 sudo apt install pipx
-sudo apt insatll hugo
+sudo apt install hugo
+sudo apt install lazygit
